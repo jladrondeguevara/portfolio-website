@@ -211,13 +211,15 @@ input, select, textarea {
 	}
 
 /* Container */
-
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
 		width: 1400px;
 	}
-
+  
+	 #fade-text {
+		font-size: 2em;
+	} 
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.container {
@@ -746,6 +748,7 @@ input, select, textarea {
 						}
 
 		}
+
 
 		@media screen and (min-width: 961px) and (max-width: 1620px) {
 
